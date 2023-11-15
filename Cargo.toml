@@ -1,5 +1,6 @@
 [package]
 name = "deco-rs"
+description = "DECO: Liberating Web Data Using Decentralized Oracles for TLS"
 version = "0.1.0"
 authors = ["taiyi-research-institute"]
 edition = "2021"
