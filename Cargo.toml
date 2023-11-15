@@ -1,0 +1,17 @@
+[package]
+name = "deco-rs"
+version = "0.1.0"
+authors = ["taiyi-research-institute"]
+edition = "2021"
+homepage = "https://github.com/taiyi-research-institute/deco-rs"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/taiyi-research-institute/deco-rs"
+
+[dependencies]
+
+
+[profile.release]
+strip = true       # Automatically strip symbols from the binary
+opt-level = "s"    # Optimize for size
+lto = true         # Enable link time optimization
+codegen-units = 1  # Maximize size reduction optimizations
